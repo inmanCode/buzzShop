@@ -1,0 +1,36 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px 60px;
+  background-color: rgba(0, 209, 0, 0.075);
+  position: relative;
+}
+#logo {
+  position: absolute;
+  top: 30px;
+  background: var(--main-bg-color);
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  font-weight: bold;
+  border: 1px solid var(--main-bg-color);
+}
+#logo:hover {
+  transform: translateY(0);
+}
+.footer ol {
+  list-style: none;
+}
+.footer ol li {
+  padding: 20px 0;
+  cursor: pointer;
+}
+.footer ol li:hover {
+  transform: translateY(-10px);
+}
+.list_head {
+  margin-bottom: 20px;
+  font-size: 17px;
+  font-weight: 800;
+  cursor: unset;
+}

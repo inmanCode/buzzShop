@@ -1,0 +1,62 @@
+.nav__bar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background: white;
+  box-shadow: 0px -10px 28px 4px rgba(0, 0, 0, 0.75);
+}
+.first_options,
+.second_options {
+  display: flex;
+  align-items: center;
+}
+.option {
+  padding: 0 20px;
+}
+.nav_logo > a {
+  background: var(--main-bg-color);
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  font-weight: bold;
+  border: 1px solid var(--main-bg-color);
+}
+.option select {
+  outline: 0;
+  border: none;
+  font-size: 17px;
+  cursor: pointer;
+  padding: 0 10px;
+}
+.option a {
+  color: rgb(0, 0, 0);
+  font-size: 17px;
+}
+.option select option {
+  background: var(--main-bg-color);
+  color: rgb(0, 0, 0);
+}
+.start_des > a {
+  background: black;
+  color: rgb(255, 255, 255);
+  padding: 7px 15px;
+  font-weight: bold;
+  border: 2px solid var(--main-bg-color);
+  border-radius: 60px;
+}
+.log_in > a {
+  background: var(--main-bg-color);
+  color: black;
+  padding: 7px 15px;
+  font-weight: bold;
+  border: 2px solid var(--main-bg-color);
+  border-radius: 60px;
+}
+.start_des > a:hover,
+.log_in > a:hover {
+  box-shadow: -5px 3px 14px -4px rgba(0, 0, 0, 0.75);
+}
+.option select option:hover {
+  background-color: red;
+}
